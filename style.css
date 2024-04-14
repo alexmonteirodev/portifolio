@@ -5,6 +5,7 @@
     --branco: #FFFFFF;
     --brancoescuro: #e4e1e143;
     --azulmarinho: #151C3A;
+    --azul: #3366FF;
     --font1: "Source Sans 3", sans-serif;
 }
 *{
@@ -67,6 +68,9 @@ nav{
     color: var(--azulmarinho);
     padding: 20px;
 }
+.nav-a:hover{
+    color: var(--azul);
+}
 #nav-avatar{
     width: 50px
 }
@@ -74,11 +78,12 @@ nav{
     background-color: ;
     border-radius: 35px;
     padding: 10px;
-    border: 2px solid var(--azulmarinho);
+    border: 2px solid var(--azul);
+    color: var(--azul);
 }
 #calltoaction:hover{
     color: var(--branco);
-    background-color: var(--azulmarinho);
+    background-color: var(--azul);
 }
 #div1{
     height: 80vh;
@@ -104,7 +109,7 @@ nav{
 }
 .redes-sociais{
     width: 30px;
-    border-radius: 10px;
+    border-radius: 20px;
     margin-left: 10px;
     margin-right: 10px;
 }
@@ -112,11 +117,27 @@ nav{
     width: 0;
     height: 0;
     border-right: 99vw solid transparent;
-    border-bottom: 6vw solid var(--brancoescuro);
+    border-bottom: 6vw solid var(--azul);
     margin-top: -6vw;
 }
 #div2{
-    background-color: var(--brancoescuro);
+    background-color: var(--azul);
     height: 80vh;
     padding-top: 1px;
+}
+#section-quemsou{
+    background-color: var(--azul);
+    border-radius: 10px;
+    color: var(--branco);
+}
+.logo{
+    width: 40px;
+    border-radius: 40px;
+    padding: 5px;
+    margin: 15px;
+}
+#section-logos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
