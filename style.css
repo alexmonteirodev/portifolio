@@ -5,7 +5,7 @@
     --branco: #FFFFFF;
     --brancoescuro: #e4e1e143;
     --azulmarinho: #151C3A;
-    --azul: #3366FF;
+    --azul: #4258FF;
     --font1: "Source Sans 3", sans-serif;
 }
 *{
@@ -18,26 +18,43 @@ body{
 h1{
     font-family: var(--font1);
     font-weight: bolder;
+    font-size: 2.8em;
+    color: var(--azulmarinho);
+    text-align: center;
+    margin: 20px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.300);
+}
+h2{
+    font-family: var(--font1);
+    font-weight: bolder;
     font-size: 2em;
     color: var(--azulmarinho);
     text-align: center;
     margin: 20px;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.300);
 }
-h3{
+.hbranco{
     font-family: var(--font1);
     font-weight: bolder;
     font-size: 1.5em;
-    color: var(--azulmarinho);
+    color: var(--branco);
     text-align: center;
     margin: 20px;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.300);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
 }
 p{
     font-family: var(--font1);
     font-weight: normal;
-    font-size: 1em;
+    font-size: 1.5em;
     color: var(--azulmarinho);
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.130);
+}
+.pbranco{
+    font-family: var(--font1);
+    font-weight: normal;
+    font-size: 1.5em;
+    color: var(--branco);
     text-align: center;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.130);
 }
@@ -70,6 +87,7 @@ nav{
 }
 .nav-a:hover{
     color: var(--azul);
+    transition-delay: 50ms;
 }
 #nav-avatar{
     width: 50px
@@ -78,7 +96,7 @@ nav{
     background-color: ;
     border-radius: 35px;
     padding: 10px;
-    border: 2px solid var(--azul);
+    border: 2.5px solid var(--azul);
     color: var(--azul);
 }
 #calltoaction:hover{
@@ -117,18 +135,22 @@ nav{
     width: 0;
     height: 0;
     border-right: 99vw solid transparent;
-    border-bottom: 6vw solid var(--azul);
-    margin-top: -6vw;
+    border-bottom: 3vw solid var(--azul);
+    margin-top: -3vw;
 }
 #div2{
     background-color: var(--azul);
-    height: 80vh;
+    height: 40vh;
     padding-top: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #section-quemsou{
     background-color: var(--azul);
     border-radius: 10px;
     color: var(--branco);
+    margin-bottom: 130px;
 }
 .logo{
     width: 40px;
@@ -140,4 +162,72 @@ nav{
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+#separador2{ /*diagonal separator*/
+    width: 0;
+    height: 1px;
+    border-right: 99vw solid transparent;
+    border-bottom: 3vw solid var(--branco);
+    margin-top: -3vw;
+}
+
+
+
+
+
+
+
+
+
+
+#redes-sociais{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 50%
+
+
+}
+/*hover das redes sociais*/
+#linkedin2:hover #linkedin3 {
+    background: url(imagens/linkedin-hover36.png) no-repeat center center;
+}
+#linkedin3{
+    width: 36px;
+    height: 36px;
+    background: url(imagens/linkedin-36.png) no-repeat center center;
+}
+#linkedin3:hover{
+    background: url(imagens/linkedin-36.png) no-repeat center center;
+}
+
+
+#instagram2:hover #instagram3 {
+    background: url(imagens/instagram-hover36.png) no-repeat center center;
+    
+}
+#instagram3{
+    width: 36px;
+    height: 36px;    
+    background: url(imagens/instagram-36.png) no-repeat center center;
+}
+#instagram3:hover{
+    background: url(imagens/instagram-36.png) no-repeat center center;
+    
+}
+
+
+#github2:hover #github3 {
+    background: url(imagens/github-hover36.png) no-repeat center center;
+}
+#github3{
+    width: 36px;
+    height: 36px;
+    background: url(imagens/github-36.png) no-repeat center center;
+}
+#github3:hover{
+    background: url(imagens/github-36.png) no-repeat center center;
+}
+#linkedin2, #instagram2, #github2{
+    margin-left: 10px;
 }
