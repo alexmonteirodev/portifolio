@@ -157,25 +157,25 @@ nav{
 /*hover das redes sociais*/
 #linkedin2:hover #linkedin3 {
     
-    background: url(imagens/linkedin-hover36.png) no-repeat center center, var(--azul);
+    background: url(imagens/linkedin-box-fill\ \(1\).svg) no-repeat center center, var(--azul);
     border: 2.5px solid var(--azul);
     box-shadow: 0px 0px 40px rgba(0, 8, 255, 0.658);
 }
 #linkedin3{
     width: 36px;
     height: 36px;
-    background: url(imagens/linkedin-36.png) no-repeat center center;
+    background: url(imagens/linkedin-black.svg) no-repeat center center;
     border-radius: 100%;
     border: 2px solid rgba(0, 0, 0, 0.72);
     padding: 10px;
 }
 #linkedin3:hover{
-    background: url(imagens/linkedin-36.png) no-repeat center center;
+    background: url(imagens/linkedin-black.svg) no-repeat center center;
 }
 
 
 #instagram2:hover #instagram3 {
-    background: url(imagens/instagram-hover36.png) no-repeat center center, var(--azul);
+    background: url(imagens/instagram-fill.svg) no-repeat center center, var(--azul);
     border: 2.5px solid var(--azul);
     box-shadow: 0px 0px 40px rgba(0, 8, 255, 0.658);
     
@@ -183,24 +183,24 @@ nav{
 #instagram3{
     width: 36px;
     height: 36px;    
-    background: url(imagens/instagram-36.png) no-repeat center center;
+    background: url(imagens/instagram-black.svg) no-repeat center center;
     border-radius: 100%;
     border: 2px solid rgba(0, 0, 0, 0.72);
     padding: 10px;
 }
 #instagram3:hover{
-    background: url(imagens/instagram-36.png) no-repeat center center;
+    background: url(imagens/github-black.svg) no-repeat center center;
     
 }
 #github2:hover #github3 {
-    background: url(imagens/github-hover36.png) no-repeat center center, var(--azul);
+    background: url(imagens/github-fill.svg) no-repeat center center, var(--azul);
     border: 2.5px solid var(--azul);
     box-shadow: 0px 0px 40px rgba(0, 8, 255, 0.658);
 }
 #github3{
     width: 36px;
     height: 36px;
-    background: url(imagens/github-36.png) no-repeat center center;
+    background: url(imagens/github-black.svg) no-repeat center center;
     border-radius: 100%;
     border: 2px solid rgba(0, 0, 0, 0.72);
     padding: 10px;
@@ -298,6 +298,18 @@ nav{
 }
 #div4{
     height: 100vh;
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    justify-content: center;
+    align-items: center;
+
+}
+.projetos{
+    width: 300px;
+    height: 200px;
+    background-color: red;
+    border-radius: 5px;
 }
 
 
