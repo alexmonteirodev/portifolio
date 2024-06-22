@@ -371,8 +371,48 @@ nav{
     background-color: var(--azul);
     box-shadow: none;
 }
+/*pagina de contato*/
 
-
+#sectioncontact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 80px;
+}
+.divcontact{
+    height: 50px;
+    width: 300px;
+    font-weight: normal;
+    font-size: 1.2em;
+    text-align: center;
+    color: var(--azulmarinho);
+}
+#textarea{
+    height: 50px;
+    width: 300px;
+}
+#submit{
+    background-color: var(--branco);
+    border-radius: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 2.5px solid var(--azul);
+    box-shadow: 0px 0px 10px rgba(0, 8, 255, 0.364);
+    color: var(--azul);
+    width: 150px;
+    height: 60px;
+}
+#submit:hover{
+    color: var(--branco);
+    background-color: var(--azul);
+    box-shadow: none;
+}
+.gap{
+    display: flex;
+    gap: 40px;
+}
 
 
 

@@ -21,29 +21,44 @@
         </nav>
     </header>
     <main>
-        <section>
-            <div>
-                <input type="text" name="" id="">
-                <input type="email" name="" id="">
+        <section id="sectioncontact">
+            <h1>How can I help you?</h1>
+            <div class="gap">
+                <div>
+                    <label for="">Name</label>
+                    <input class="divcontact" type="text" name="" id="">
+                </div>
+                <div>
+                    <label for="">Email</label>
+                    <input class="divcontact" type="email" name="" id="">
+                </div>
             </div>
-            <div>
-                <select name="project type" id="">
-                    <option value="Responsive design"></option>
-                    <option value="Web app"></option>
-                    <option value="Mobile app"></option>
-                    <option value="Others"></option>
-                </select>
-                <select name="Budget" id="">
-                    <option value="Responsive design"></option>
-                    <option value="Web app"></option>
-                    <option value="Mobile app"></option>
-                    <option value="Others"></option>
-                </select>
+            <div class="gap">
+                <div>
+                    <label for="">Type of project</label>
+                    <select class="divcontact" name="project type" id="">
+                        <option value="Responsive design">Responsive design</option>
+                        <option value="Web app">Web app</option>
+                        <option value="Mobile app">Mobile app</option>
+                        <option value="Others">Others</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="">Budget</label>
+                    <select class="divcontact" name="Budget" id="">
+                        <option value="Responsive design">1.000,00</option>
+                        <option value="Web app">1 ate 5</option>
+                        <option value="Mobile app">5+</option>
+                        <option value="Others"></option>
+                    </select>
+                </div>
             </div>
-            <div>
-                <input type="text" name="" id="">
+            <div class="gap">
+                <label for="">additional details</label>
+                <textarea class="divcontact" name="" id="textarea" rows="5"></textarea>
             </div>
-
+            <input id="submit" type="button" value="Submit">
+            <button id="submit">submit</button>
         </section>
     </main>
     <footer></footer>
