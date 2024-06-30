@@ -380,6 +380,9 @@ nav{
     align-items: center;
     align-content: center;
     gap: 80px;
+    background-color: var(--branco);
+    gap: 60px;
+    height: 87vh;
 }
 .divcontact{
     height: 50px;
@@ -388,10 +391,6 @@ nav{
     font-size: 1.2em;
     text-align: center;
     color: var(--azulmarinho);
-}
-#textarea{
-    height: 50px;
-    width: 300px;
 }
 #submit{
     background-color: var(--branco);
@@ -413,8 +412,15 @@ nav{
     display: flex;
     gap: 40px;
 }
-
-
+.inputname{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+#textarea{
+    resize: vertical;
+    width: 100%;
+}
 
 
 

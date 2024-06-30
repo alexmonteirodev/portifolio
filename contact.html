@@ -20,22 +20,22 @@
             </div>
         </nav>
     </header>
-    <main>
+    <main> <!--Englobar inputs dentro de uma div só para block e aumentar tamanho do textare-a-->
         <section id="sectioncontact">
             <h1>How can I help you?</h1>
             <div class="gap">
-                <div>
-                    <label for="">Name</label>
+                <div class="inputname">
+                    <label for="">Name *</label>
                     <input class="divcontact" type="text" name="" id="">
                 </div>
-                <div>
-                    <label for="">Email</label>
+                <div class="inputname">
+                    <label for="">Email *</label>
                     <input class="divcontact" type="email" name="" id="">
                 </div>
             </div>
             <div class="gap">
-                <div>
-                    <label for="">Type of project</label>
+                <div class="inputname">
+                    <label for="">Type of project *</label>
                     <select class="divcontact" name="project type" id="">
                         <option value="Responsive design">Responsive design</option>
                         <option value="Web app">Web app</option>
@@ -43,21 +43,20 @@
                         <option value="Others">Others</option>
                     </select>
                 </div>
-                <div>
-                    <label for="">Budget</label>
+                <div class="inputname">
+                    <label for="">Budget *</label>
                     <select class="divcontact" name="Budget" id="">
-                        <option value="Responsive design">1.000,00</option>
-                        <option value="Web app">1 ate 5</option>
-                        <option value="Mobile app">5+</option>
+                        <option value="Responsive design">$200,00 - $1.000,00</option>
+                        <option value="Web app">$1.000,00 - $5.000,00</option>
+                        <option value="Mobile app">$5.000,00 +</option>
                         <option value="Others"></option>
                     </select>
                 </div>
             </div>
-            <div class="gap">
-                <label for="">additional details</label>
-                <textarea class="divcontact" name="" id="textarea" rows="5"></textarea>
+            <div class="inputname">
+                <label for="">Additional details</label>
+                <textarea name="" id="textarea" rows="5"></textarea>
             </div>
-            <input id="submit" type="button" value="Submit">
             <button id="submit">submit</button>
         </section>
     </main>
