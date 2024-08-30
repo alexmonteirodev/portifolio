@@ -275,6 +275,10 @@ nav{
     border-radius: 10px;
     color: var(--branco);
     margin-bottom: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
 }
 .logo{
     width: 40px;
@@ -282,10 +286,7 @@ nav{
     padding: 5px;
     margin: 15px;
 }
-.div3{
-    height: 20vh;
- 
-}
+
 #section-logos{
     display: flex;
     flex-direction: row;
@@ -293,13 +294,37 @@ nav{
     border: 1px solid rgba(128, 128, 128, 0.412);
     box-shadow: 0px 0px 5px rgba(92, 92, 92, 0.317) ;
     background-color: var(--branco);
-    width: 80vw;
-    height: 10vh;
+    width: 50vw;
     border-radius: 10px;
     margin: auto;
     padding-bottom: 20px;
     padding-top: 20px;
     margin-top: -3.5rem; 
+}
+strong{
+    font-style: italic;
+    color: var(--azulmarinho);
+}
+#curriculo-button{
+    background-color: var(--branco);
+    border-radius: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 2.5px solid var(--azul);
+    box-shadow: 0px 0px 10px rgba(0, 8, 255, 0.364);
+    color: var(--azulmarinho);
+    width: 150px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-top: 40px;
+    
+}
+#curriculo-button:hover{
+    color: var(--branco);
+    background-color: var(--azulmarinho);
+    box-shadow: none;
+    font-style: italic;
 }
 .div3{
     height: 100vh;
@@ -307,7 +332,7 @@ nav{
     background-color: red;
 }
 #projectsp{
-    margin-top: 20vh;
+    margin-top: 10vh;
 }
 #div4 {
     height: 50vh;
@@ -359,6 +384,7 @@ nav{
 
 .projetos:hover {
     background-color: var(--azulmarinho); /* Cor de fundo quando em hover */
+    box-shadow: 0px 0px 40px var(--azulmarinho);
 }
 
 .projetos:hover .conteudoprojetos,
