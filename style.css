@@ -77,7 +77,6 @@ p{
 #navbar{
     background-color: var(--branco);
     height: 13vh;
-    width: 100vw;
 }
 .logo{
     width: 75px;
@@ -269,6 +268,7 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: 0px 0px 10px rgba(1, 21, 239, 0.378);
 }
 #section-quemsou{
     background-color: var(--azul);
@@ -341,6 +341,10 @@ strong{
     gap: 50px;
     justify-content: center;
     align-items: center;
+}
+.imgs-projetos{
+    width: 400px;
+    height: 400px;
 }
 
 .projetos {
@@ -448,6 +452,18 @@ strong{
     width: 100%;
 }
 
+/* animacoes js */
+
+.js-scroll{ 
+    /* não usou display:none pq se não o elemento seria adicinado na tela e ela daria um pulo, já com o trnasform o elemento já está na tela e por isso não pula, porque ele não é adicionado com o block*/
+    opacity: 0;
+    transform: translate3d(-30px,0,0);
+    transition: .5s;
+}
+.js-scroll.ativo{
+    opacity: 1; /* opacidade faz o elemento sumir e aparecer */
+    transform: translate3d(0,0,0);
+}
 
 
 
